@@ -1,0 +1,19 @@
+name: notetaking_app
+description: GoodNotes-style note taking app
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  flutter_colorpicker: ^1.0.3
+  path_provider: ^2.0.12
+  pdf: ^3.10.4
+  share_plus: ^7.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
